@@ -1,0 +1,65 @@
+.hero {
+    &__head {
+      position: absolute;
+      top: 160px;
+      left: 10%;
+      right: 10%;
+      text-align: center;
+      width: 80%;
+      height: 59px;
+      font-family: $primaryFontFamily;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 5em;
+      line-height: 81px;
+      color: $primaryTextColor;
+    }
+  
+    &__box {
+      position: absolute;
+      top: 62%;
+      left: 55%;
+      right: 15%;
+      width: 280px;
+      height: 140px;
+      background: $primaryTextColor;
+      border: 1px solid #000000;
+      box-sizing: border-box;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 12px;
+  
+      &--text {
+        position: absolute;
+        top: 20px;
+        left: 10%;
+        width: 90%;
+        height: 80px;
+        font-family: $secondaryFontFamily;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 1.25em;
+        color: $secondaryTextColor;
+      }
+    }
+  }
+  
+  @media screen and (max-width: 702px) {
+    .hero {
+      &__head {
+        font-size: 3.4em;
+        line-height: 81px;
+        left: 15%;
+        right: 15%;
+        width: 70%;
+      }
+      &__box {
+        margin-left: auto;
+        margin-right: auto;
+        left: 20%;
+      }
+    }
+  }
+  
+
+  

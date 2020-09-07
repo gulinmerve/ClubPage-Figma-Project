@@ -1,0 +1,44 @@
+.navbar {
+    & img {
+      opacity: 0.8;
+    }
+    &__logo {
+      position: absolute;
+      top: 15px;
+      left: 15px;
+      width: 160px;
+      height: auto;
+      background: #c4c4c4;
+    }
+    &__right {
+      &--login {
+        position: absolute;
+        right: 150px;
+        top: 22px;
+        width: 35px;
+        height: 16px;
+        font-family: $secondaryFontFamily;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 16px;
+        color: #ffffff;
+        text-decoration: none;
+      }
+      &--register {
+        position: absolute;
+        right: 60px;
+        top: 23px;
+        width: 52px;
+        height: 16px;
+        font-family: $secondaryFontFamily;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 16px;
+        color: black;
+        text-decoration: none;
+      }
+    }
+  }
+  
